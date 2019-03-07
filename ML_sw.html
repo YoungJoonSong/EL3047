@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Machine Learning EL3047 (Kumoh National Inst. of Tech)</title>
+
+    <style>
+    div{
+      border: 2px solid gray;
+      background-color: lightblue;
+    }
+
+    div#navigation{
+      display: grid;
+      grid-template-columns: 230px 1fr;
+    }
+
+
+
+
+    h1#ml_head {
+      border: red;
+      font-family: Georgia;
+      font-style: italic;
+      font-size: 60px;
+      padding: 20px;
+      width: 700px;
+      margin:50px;
+      color:gray;
+      letter-spacing:2px;
+      text-align: center;
+    }
+
+    p{
+      font-family:Times;
+      font-size: 20px;
+      color: black;
+      line-height:1.6;
+    }
+
+    div#ml_sw{
+      padding-left: 20px;
+
+    }
+
+    ol#ml_list {
+          font-size:25px;
+          padding-left: 40px;
+    }
+
+    ul{
+          font-size:20px;
+
+    }
+
+
+    a {
+      color: green;
+      text-decoration: none;
+    }
+
+    a.etc {
+      color: blue;
+      text-decoration: none;
+    }
+
+
+
+    a#main{
+      color: black;
+      font-size:30px;
+    }
+
+    </style>
+  </head>
+
+
+  <body>
+    <h1 id="ml_head">Machine Learning</h1>
+
+    <div id="navigation">
+      <div>
+        <ol id="ml_list">
+          <li> <a href="ML_EL3047.html" class="etc" > 과목 개요 </a></li>
+          <li> <a href="ML_instr.html" class="etc"> 강사 및 조교 </a></li>
+          <li> <a href="ML_sw.html" id="main">Software</a>  </li>
+          <li><a href="ML_ref.html" class="etc">관련자료</a></li>
+        </ol>
+      </div>
+
+      <div id="ml_sw">
+        <p>머신러닝 알고리즘 구현과 실험을 위하여 <a href="https://www.python.org/">Python</a>
+          프로그램 언어과 관련된 다음과 같은 패키지를 많이 사용할 예정입이다.</p>
+
+  	       <ul>
+  	          <li> <a href="http://www.numpy.org/">numpy</a>: Array processing for numbers, strings, records, and objects
+  	          <li> <a href="http://www.scipy.org/">scipy</a>: Scientific Library for Python
+  	          <li> <a href="http://www.scikit-learn.org/">scikit-learn</a> : A set of python modules for machine learning and data mining
+  	       </ul>
+
+         <p><a href="https://www.anaconda.com/download/">Anaconda</a>는 위의 패키지를 포함하여
+            <a href="https://docs.anaconda.com/anaconda/packages/py3.6_win-64/">여기에</a> 설명된 많은
+            패키지를 포함하고 있어서 아나콘다를 설치하는 것도 좋은 방법입니다. </p>
+
+      </div>
+    </div>
